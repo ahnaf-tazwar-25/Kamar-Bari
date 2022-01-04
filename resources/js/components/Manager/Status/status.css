@@ -1,0 +1,81 @@
+.manager-status {
+    overflow: auto;
+    height: 90vh;
+}
+
+.manager-responsive-container {
+    margin-bottom: 5%;
+    /* margin-left: 10%; */
+
+    /* background-color: rgb(231, 231, 231); */
+}
+
+.manager-space-header {
+    color: rgb(0, 161, 62);
+    /* text-shadow: 1px 0px 1px #cccccc, 0px 1px 1px #eeeeee, 2px 1px 1px #cccccc,
+        1px 2px 1px #eeeeee, 3px 2px 1px #cccccc, 2px 3px 1px #eeeeee,
+        4px 3px 1px #cccccc, 3px 4px 1px #eeeeee, 5px 4px 1px #cccccc,
+        4px 5px 1px #eeeeee, 6px 5px 1px #cccccc, 5px 6px 1px #eeeeee,
+        7px 6px 1px #cccccc, -38px 40px 0px rgb(0, 161, 62); */
+}
+
+.manager-status-left {
+    margin-top: 3vh;
+    margin-bottom: 10vh;
+    margin-left: 8vh;
+    margin-right: 8vh;
+}
+
+.manager-status-center {
+    width: 45vh;
+    margin-top: 3.35vh;
+    border-radius: 14px;
+    /* height: fit-content; */
+}
+
+.manager-orderItem {
+    /* margin-top: 0; */
+
+    margin: auto;
+    /* margin-bottom: 50px; */
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: 25vw;
+    height: 25vh;
+    border: 0.5vh solid black;
+    border-radius: 1vh;
+    background-color: rgb(252, 252, 252);
+    /* background-color: rgb(0, 255, 55); */
+}
+
+.manager-card {
+    box-shadow: 0px 0px 19px 3px #000000;
+
+    border-radius: 14px;
+    /* background: rgba(43, 255, 0, 0.1); */
+    /* background: rgba(43, 255, 0, 0.1); */
+    /* 
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5); */
+
+    backdrop-filter: blur(1.5vh);
+
+    /* background: linear-gradient(
+        to bottom,
+        transparent 80%,
+        transparent 80%,
+        #069a04 100%
+    ); */
+}
+
+.manager-attendance-icon {
+    color: #7a62ff;
+    opacity: 0.75;
+}
+
+.manager-card:hover {
+    
+    /* transform: scale(1.05); */
+    box-shadow: 0px 0px 19px 8px #00b158;
+    transition: all 0.25s;
+}

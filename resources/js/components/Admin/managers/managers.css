@@ -1,0 +1,49 @@
+.dataGrid {
+    width: 50%x;
+}
+
+.add-manager {
+    /* background-color: rgb(255, 206, 206); */
+    margin-top: 12vh;
+    margin-left: 5vh;
+    padding: 1vh;
+    width: 22%;
+    height: 100%;
+    display: flex;
+    margin-bottom: 15%;
+    border-radius: 1vh;
+    border: 0.1vh solid rgb(179, 193, 255);
+    cursor: pointer;
+    background-color: rgb(247, 247, 255);
+    box-shadow: -1px 0px 400px -172px rgba(203, 204, 255) inset;
+    -webkit-box-shadow: -1px 0px 400px -172px rgba(203, 204, 255) inset;
+    -moz-box-shadow: -1px 0px 400px -172px rgba(203, 204, 255) inset;
+}
+
+
+.add-manager:hover {
+    background-color: rgb(207, 208, 247);
+    transform: scale(1.01);
+    border: 0.2vh solid rgb(101, 129, 255);
+    transition: all 0.2s;
+    box-shadow: -1px 0px 400px -200px rgb(132, 134, 255) inset;
+    -webkit-box-shadow: -1px 0px 400px -200px rgba(132, 134, 255) inset;
+    -moz-box-shadow: -1px 0px 400px -200px rgba(132, 134, 255) inset;
+}
+.add-manager:active {
+    transform: scale(0.95);
+    transition: all 0.1s;
+}
+
+
+
+.manager-svg {
+    background-color: transparent;
+}
+
+.btn-name {
+    margin-left: 1.5vw;
+    margin-top: 2rem;
+}
+
+

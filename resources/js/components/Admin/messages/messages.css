@@ -1,0 +1,50 @@
+.ceo-userList {
+    flex: 1;
+    height: 95vh;
+    padding: 4vh;
+
+    background-color: azure;
+}
+
+.ceo-convs-text{
+    flex: 6;
+    background-color: whitesmoke;
+}
+
+.ceo-conversations {
+    height: 90vh;
+    padding: 0.5rem;
+
+    background-color: whitesmoke;
+}
+
+.ceo-messages {
+    display: flex;
+    overflow-y: hidden;
+}
+
+.uceo-serListItems {
+    margin-top: 7vh;
+}
+
+.ceo-send-text {
+    width: 164vh;
+    position: absolute;
+    margin-top: 5vh;
+    padding-left: 5px;
+    margin-bottom: 0.5vh;
+    bottom: 0;
+    display: flex;
+    background-color: whitesmoke;
+}
+
+.ceo-sendText {
+    background-color: #fff;
+}
+
+.ceo-sendBtn {
+    margin-top: 0.5vh;
+    margin-left: 2vh;
+}
+
+

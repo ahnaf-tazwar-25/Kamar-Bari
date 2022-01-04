@@ -1,0 +1,24 @@
+.animalTable{
+    margin-top: 10vh;
+    margin-left: 5vw;
+}
+
+.action{
+    cursor: pointer;   
+}
+.action:hover{
+    color: rgb(150, 121, 255);
+}
+
+.backBtn{
+    margin-left: 1vw;
+    margin-top: 2vh;
+}
+
+.submitBtn{
+    /* background-color: aqua; */
+    width: 90%;
+    margin-left: 42%;
+    margin-bottom: 4vh;
+    margin-top: 4vh;
+}

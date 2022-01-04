@@ -1,0 +1,98 @@
+import * as React from "react";
+import PropTypes from "prop-types";
+import Tabs from "@mui/material/Tabs";
+import Tab from "@mui/material/Tab";
+import Typography from "@mui/material/Typography";
+import Box from "@mui/material/Box";
+import Button from "@mui/material/Button";
+import ChickenTable from "./ChickenTable";
+import EggChicken from "./EggChicken";
+import ChickenTransfer from "./ChickenTransfer";
+import ArrowBackIcon from '@mui/icons-material/ArrowBack';
+
+function TabPanel(props) {
+    const { children, value, index, ...other } = props;
+
+    return (
+        <div
+            role="tabpanel"
+            hidden={value !== index}
+            id={`simple-tabpanel-${index}`}
+            aria-labelledby={`simple-tab-${index}`}
+            {...other}
+        >
+            {value === index && (
+                <Box sx={{ p: 3 }}>
+                    <Typography>{children}</Typography>
+                </Box>
+            )}
+        </div>
+    );
+}
+
+TabPanel.propTypes = {
+    children: PropTypes.node,
+    index: PropTypes.number.isRequired,
+    value: PropTypes.number.isRequired,
+};
+
+function a11yProps(index) {
+    return {
+        id: `simple-tab-${index}`,
+        "aria-controls": `simple-tabpanel-${index}`,
+    };
+}
+
+export default function BasicTabs(props) {
+    const [value, setValue] = React.useState(0);
+
+    const handleChange = (event, newValue) => {
+        setValue(newValue);
+    };
+
+    const changeAchtiveness = (index) => {
+        // this.setState({ activeList: index });
+        props.onChange(index);
+    };
+
+    return (
+        <>
+            <Box sx={{ width: "100%", marginBottom: 52.8 }}>
+                <Box sx={{ borderBottom: 1, borderColor: "divider" }}>
+                    <Tabs
+                        value={value}
+                        onChange={handleChange}
+                        aria-label="basic tabs example"
+                        sx={{ bgcolor: "white" }}
+                    >
+                        <Tab label="Chickens" {...a11yProps(0)} />
+                        <Tab label="Chicken Eggs" {...a11yProps(1)} />
+                        <Tab label="Transfer Chicken" {...a11yProps(2)} />
+                    </Tabs>
+                </Box>
+
+                <div className="backBtn">
+                    <Button
+                        variant="contained"
+                        onClick={() => changeAchtiveness(1)}
+                        startIcon={<ArrowBackIcon />}
+                    >
+                        Back
+                    </Button>
+                </div>
+
+                <TabPanel value={value} index={0}>
+                    <ChickenTable />
+                </TabPanel>
+
+                <TabPanel value={value} index={1}>
+                    <EggChicken />
+                </TabPanel>
+
+                <TabPanel value={value} index={2}>
+                    <ChickenTransfer />
+                </TabPanel>
+            </Box>
+        </>
+    );
+}

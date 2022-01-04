@@ -1,0 +1,83 @@
+.home {
+    flex: 5;
+    /* background-color: rgb(180, 253, 183); */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.sidebar {
+    flex: 1;
+    /* background-color: rgb(122, 183, 253); */
+    display: block;
+}
+.homeWidgets {
+    display: flex;
+    margin: 20px;
+}
+
+.contents {
+    display: flex;
+}
+
+.test {
+    background-image: url("https://images.unsplash.com/photo-1544306094-e2dcf9479da3");
+}
+
+/* 
+.backImg1 {
+    background-image: url("https://wallpaperaccess.com/full/1154342.jpg");
+}
+
+.backImg2 {
+    background-image: url("https://www.peta.org.uk/wp-content/uploads/2017/05/Suffolk-Chicken-Farm1.jpg");
+}
+
+.backImg3 {
+    background-color: rgb(238, 235, 235);
+}
+
+.backImg4 {
+    background-image: url("https://www.pcinvasion.com/wp-content/uploads/2021/05/FarmManager21.jpg");
+}
+
+.backImg5 {
+    background-image: url("https://static.vecteezy.com/system/resources/previews/002/714/129/original/nature-farm-with-animal-in-summer-farm-with-cows-hen-goose-duck-pig-dog-goat-barn-farmer-and-hays-landscape-with-farm-illustration-rural-farm-scene-flat-design-animal-farming-concept-vector.jpg");
+
+}
+.backImg6 {
+    background-image: url("https://cdn.wallpapersafari.com/36/70/xOCvFN.jpg");
+}
+
+.backImg7 {
+    background-image: url("https://c1.wallpaperflare.com/preview/176/111/582/shopping-cart-shopping-purchasing-candy.jpg");
+} */
+
+
+.backImg1 {
+    background-image: url("images/backImg1.jpg");
+}
+
+.backImg2 {
+    background-image: url("images/backImg2.jpg");
+}
+
+.backImg3 {
+    background-color: rgb(238, 235, 235);
+}
+
+.backImg4 {
+    background-image: url("images/backImg4.jpg");
+}
+
+.backImg5 {
+    background-image: url("images/backImg5.jpg");
+
+}
+.backImg6 {
+    background-image: url("images/backImg6.jpg");
+}
+
+.backImg7 {
+    background-image: url("images/backImg7.jpg");
+}
+

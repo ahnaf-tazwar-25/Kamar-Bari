@@ -1,0 +1,15 @@
+.barChart{
+    background-color: rgb(249, 249, 255);
+    width: 95%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 2.5%;
+    /* border: 2px black solid; */
+    border-radius: 1vh;
+    -webkit-box-shadow: 0px 3px 18px -5px #000000;
+    box-shadow: 0px 3px 18px -5px #000000;
+}
+
+.productionChartS{
+    margin-top: 5%;
+}

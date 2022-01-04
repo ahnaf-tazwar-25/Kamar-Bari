@@ -1,0 +1,18 @@
+.navbar {
+    color: blueviolet;
+    position: sticky;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-bottom: 8vh;
+}
+
+.title {
+    color: rgb(0, 189, 0);
+    font-weight: 600;
+    font-style: italic;
+}
+
+.title:hover {
+    text-decoration: none;
+    color: rgb(0, 151, 0);
+}
+

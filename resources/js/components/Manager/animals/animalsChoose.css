@@ -1,0 +1,40 @@
+.cards {
+    margin-top: 10vh;
+    margin-bottom: 13.9vh;
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.cardTitle {
+    text-align: center;
+    margin-bottom: 1vh;
+}
+
+.cardElement {
+    cursor: pointer;
+    padding: 1vh;
+    margin-left: 5vh;
+    width: auto;
+    margin-bottom: auto;
+    background-color: rgb(212, 212, 212);
+    border: groove rgb(202, 206, 255);
+    border-radius: 15px;
+    -webkit-box-shadow: 0px 0px 15px -6px #000000;
+    box-shadow: 0px 0px 15px -6px #000000;
+}
+
+.cardElement:hover {
+    transform: scale(1.01);
+    transition: all 0.1s;
+    border: groove rgb(93, 104, 255);
+}
+.cardElement:active {
+    transform: scale(0.99);
+    transition: all 0.1s;
+    border: groove rgb(46, 60, 255);
+}
+
+.table {
+    border-radius: 5px;
+    background-color: rgb(247, 247, 247);
+}

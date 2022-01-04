@@ -1,0 +1,69 @@
+.manager-root {
+    overflow: hidden;
+    min-height: 95vh;
+}
+
+.manager-topbar {
+    position: fixed;
+    
+    
+}
+
+.manager-home {
+    flex: 6;
+    margin-top: 5vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.manager-sidebar {
+    flex: 1;
+}
+.manager-homeWidgets {
+    display: flex;
+    margin: 20px;
+}
+
+.manager-contents {
+    display: flex;
+}
+
+/* .test {
+    background-image: url("https://images.unsplash.com/photo-1544306094-e2dcf9479da3");
+} */
+
+.test {
+    background-image: url("images/test.jpg");
+}
+.manager-backImg1 {
+    background-image: url("images/managerStatusBackground.jpg");
+}
+
+
+/* 
+.manager-backImg2 {
+    background-image: url("https://img.freepik.com/free-photo/farmer-sterile-clothing-holding-tablet-computer-poultry-farm-checking-production-food-supply_308072-1250.jpg?size=626&ext=jpg");
+}
+.manager-backImg4 {
+    background-image: url("https://graphicriver.img.customer.envatousercontent.com/files/260810130/preview_9049072.jpg?auto=compress%2Cformat&q=80&fit=crop&crop=top&max-h=8000&max-w=590&s=f3c476d55e30422f7bb63e9efa1fb526");
+    
+} */
+
+
+.manager-backImg2 {
+    background-image: url("images/manager-backImg2.jpg");
+}
+.manager-backImg4 {
+    background-image: url("images/manager-backImg4.jpg");
+    
+}
+
+
+.manager-backImg3 {
+    background-image: url("images/output-onlinepngtools.png");
+}
+
+
+
+
+

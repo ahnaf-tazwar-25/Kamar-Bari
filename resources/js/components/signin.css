@@ -1,0 +1,32 @@
+.signin {
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+        rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.signinTitle {
+    color: blueviolet;
+    margin-left: 25%;
+}
+
+.login {
+    margin-left: 50%;
+    margin-top: 5%;
+}
+
+.signin-cancel-btn:hover {
+    color: white;
+    /* color: rgb(70, 70, 70); */
+}
+
+.headLine {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-weight: 800;
+    color: #2c7e1cc7;
+    background: #666666;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    text-shadow: 0px 3px 3px rgba(255, 255, 255, 0.5);
+}

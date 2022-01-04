@@ -1,0 +1,64 @@
+.manager-sidebar {
+  flex: 1;
+  height: 95vh;
+  /* background-color: rgb(235, 252, 233); */
+  background-image: url("https://st.depositphotos.com/1516135/2556/i/950/depositphotos_25561405-stock-photo-earthy-background-image.jpg");
+  position: sticky;
+  top: 50px;
+  overflow: auto;
+  background-color: rgba(255, 255, 255, 0.5);
+  background-blend-mode: lighten;
+}
+
+.manager-appName {
+  color: rgb(82, 82, 255);
+  font-style: italic;
+  text-align: center;
+  margin-top: 10px;
+  padding: 1%;
+}
+
+.manager-sidebarWrapper {
+  padding: 5%;
+  color: #555;
+  margin-top: 50px;
+}
+
+.manager-sidebarMenu {
+  margin-bottom: 10%;
+}
+
+.manager-sidebarTitle {
+  font-size: 22px;
+  color: rgb(155, 155, 155);
+}
+
+.manager-sidebarList {
+  list-style-type: none;
+  padding: 3%;
+}
+
+.manager-sidebarListItem {
+  padding: 3%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.manager-sidebarListItem.active,
+.manager-sidebarListItem:hover {
+ 
+  background-color: rgb(184, 226, 174);
+  border-radius: 10px;
+}
+
+.manager-sidebarIcon {
+  padding-right: 5px;
+}
+
+
+@media only screen and (max-width: 800px) {
+  .manager-sidebar {
+    display: none;
+  }
+}

@@ -1,0 +1,58 @@
+.mangaer-contents {
+    display: flex;
+    margin-top: 10vh;
+    margin-left: 18%;
+    /* background-color: aqua; */
+    margin-right: 30vh;
+    border-bottom: 1vh solid #d4d4d4;
+    border-top: 1vh solid #d4d4d4;
+}
+
+.manager-home-btn{
+    padding: 2.5vh;
+}
+
+.mangaer-avatar {
+    margin-right: 10px;
+    /* background-color: aquamarine; */
+    z-index: 2;
+    margin-top: 2%;
+}
+
+.mangaer-btnCenter {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.mangaer-infos {
+
+    -webkit-box-shadow: 0px 0px 18px 3px rgba(0,0,0,0.36); 
+    box-shadow: 0px 0px 18px 3px rgba(0,0,0,0.36);
+
+
+    background-color: #fff;
+    margin-top: 16vh;
+    width: 80%;
+    padding: 2vh;
+    font-size: 18px;
+    margin-bottom: 4%;
+}
+
+.manager-row{
+    /* width: 90%; */
+    margin-left: 1vh;
+    margin-right: 1vh;
+    padding: 2vh;
+    border-bottom: 2px solid #d4d4d4;
+}
+
+.mangaer-active{
+    /* background-color: aquamarine; */
+    color: rgb(66, 66, 66);
+    font-weight: 400;
+}
+
+.mangaer-field{
+    color: rgb(161, 160, 160);
+    font-weight: 600;
+}

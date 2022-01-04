@@ -1,0 +1,59 @@
+.manager-userList {
+    flex: 1;
+    height: 95vh;
+    padding: 4vh;
+
+    
+    background-color: aliceblue;
+    overflow: auto;
+}
+
+
+.manager-conversations {
+    height: 88vh;
+    padding: 0.5rem;
+
+    background-color: #ece6dd;
+}
+
+
+.manager-convs-text{
+    flex: 6;
+    background-color: #ece6dd;
+}
+
+
+.manager-messages {
+    display: flex;
+    overflow-y: hidden;
+}
+
+
+.manager-userListItems {
+    margin-top: 2vh;
+}
+
+
+.manager-send-text {
+    width: fit-content;
+    position: absolute;
+    margin-top: 5vh;
+    padding-left: 5px;
+    margin-bottom: 0.5vh;
+    bottom: 0;
+    display: flex;
+    
+}
+
+
+.manager-sendText {
+    background-color: #fff;
+}
+
+
+.manager-sendBtn {
+    margin-top: 0.5vh;
+    margin-left: 1vh;
+}
+
+

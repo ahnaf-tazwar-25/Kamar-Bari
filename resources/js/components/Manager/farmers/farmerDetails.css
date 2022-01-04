@@ -1,0 +1,70 @@
+.manager-order-details {
+    margin-top: 5%;
+    -webkit-box-shadow: 0px 0px 14px -6px #000000;
+    box-shadow: 0px 0px 14px -6px #000000;
+    border: 1px solid #bdbdbd;
+    border-radius: 10px;
+    margin-bottom: 10vh;
+}
+
+.manager-order-header {
+    display: flex;
+    border-bottom: 3px solid #e6dbfc;
+}
+
+.manager-order-head-btn{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.manager-row {
+    margin-left: 1vh;
+    margin-right: 1vh;
+    padding: 2vh;
+    border-bottom: 2px solid #d4d4d4;
+}
+
+.manager-assign-row {
+    padding-top: 2vh;
+    padding-bottom: 0.5vh;
+    border-bottom: 2px solid #d4d4d4;
+}
+
+.manager-assign-last-row {
+    padding-top: 2vh;
+    padding-bottom: 0.5vh;
+}
+
+.manager-order-h1 {
+    margin-top: 4%;
+    margin-left: 2vh;
+
+    color: transparent;
+    background: #666666;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    text-shadow: 0px 3px 3px rgba(255, 255, 255, 0.5);
+}
+
+.manager-order-contents {
+    margin-top: 3%;
+}
+
+.manager-assign {
+    width: fit-content;
+    display: flex;
+    padding: 1vh;
+    padding-right: 1.5rem;
+    border: 1px solid #bdbdbd;
+}
+
+.manager-assign > div {
+    margin: 1px;
+}
+
+.manager-last-row {
+    margin-top: 5%;
+    text-align: center;
+}

@@ -1,0 +1,42 @@
+
+.form{
+    width: 50%;
+    margin: 8%;
+    margin-left: 25%;
+    padding-top: 5vh;
+    padding-left: 4vh;
+    border: 2px solid black;
+    border-radius: 2vh;
+    background-color: rgba(255, 255, 255, 0.955);
+    /* overflow: scroll; */
+}
+
+
+#gender-manager,
+#farmID-manager,
+#satus-manager {
+    width: 9vw;
+}
+
+.r1,
+.r2,
+.r3,
+.r4,
+.r5 {
+    margin-top: 3rem;
+    margin-right: 3rem;
+    margin-left: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+#fName-manager,
+#lName-manager {
+    width: 15vw;
+}
+
+.r6 {
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+}

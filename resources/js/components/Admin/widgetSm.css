@@ -1,0 +1,80 @@
+.widgetSm {
+    flex: 1;
+    height: 450px;
+    padding: 20px;
+    background-color: white;
+    -webkit-box-shadow: 0px 3px 19px -4px #000000;
+    box-shadow: 0px 3px 19px -4px #000000;
+    overflow: auto;
+}
+
+.widgetSmTitle {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.widgetSmImg {
+    border-radius: 50%;
+}
+
+.widgetSmList {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.widgetSmListItem {
+    margin: 1vh;
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.widgetSmUser {
+    display: flex;
+    flex-direction: column;
+}
+
+.widgetSmUsername {
+    font-weight: 600;
+}
+
+.widgetSmUserTitle {
+    font-weight: 100;
+    color: grey;
+}
+
+.widgetSmButton {
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 20px;
+    padding: 3px 9px;
+    background-color: #eeeef7;
+    color: #555;
+    cursor: pointer;
+}
+
+.widgetSmButton:hover {
+    color: rgb(170, 170, 170);
+    background-color: #f1f1ff;
+}
+
+.widgetSmButton:active {
+    color: rgb(170, 170, 170);
+    background-color: #d5d5ff;
+    transform: scale(0.95);
+}
+
+.widgetSmIcon {
+    font-size: 16px;
+    margin-right: 5px;
+}
+
+@media only screen and (max-width: 800px) {
+    .mobileWidgetSm {
+        flex: none;
+        width: 75%;
+    }
+}
